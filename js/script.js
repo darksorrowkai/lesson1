@@ -1,9 +1,8 @@
-//const answer = prompt("Вам есть 18?", "18");
-//console.log(answer);
+
 
 const numberOfFilms = [];
-numberOfFilms[0] = prompt('Сколько фильмов вы уже посмотрели?', '');
-//document.write(numberOfFilms);
+numberOfFilms[0] = +prompt('Сколько фильмов вы уже посмотрели?', '');
+
 
 const personalMovieDB = {
     count: numberOfFilms,
@@ -22,5 +21,5 @@ const a = prompt('Один из последних просмотренных ф
 personalMovieDB.movies[a] = b;
 personalMovieDB.movies[c] = d;
 
-console.log(personalMovieDB);
+
  
